@@ -2,6 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-	font-family: 'Space Mono';
+	font-family: var(--Family);
 }
 
+:root{
+    
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --Strong-cyan: hsl(172, 67%, 45%);
+
+    /* ### Neutral */
+
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan-1: hsl(186, 14%, 43%);
+    --Dark-grayish-cyan-2: hsl(184, 14%, 56%);
+    --Light-grayish-cyan-1: hsl(185, 41%, 84%);
+    --Light-grayish-cyan-2: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+
+    /* ## Typography */
+
+    /* ### Body Copy */
+
+    --Font-size-form-inputs: 24px;
+
+    /* ### Font */
+
+    --Family: 'Space Mono';
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+
+}
+
+body{
+    background: var(--Light-grayish-cyan-1);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
