@@ -1,0 +1,11 @@
+.number-of-people > div{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.number-of-people img{
+    position: absolute;
+    left: 5%;
+}

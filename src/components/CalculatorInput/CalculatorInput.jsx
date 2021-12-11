@@ -10,10 +10,10 @@ export const CalculatorInput = () => {
             <div className="bill-box">
                 <Bill />
             </div>
-            <div className="select-tip">
+            <div className="select-tip-box">
                 <SelectTip />
             </div>
-            <div className="number-of-people">
+            <div className="number-of-people-box">
                 <NumberOfPeople />
             </div>
         </div>

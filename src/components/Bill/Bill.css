@@ -1,0 +1,11 @@
+.bill > div{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bill img{
+    position: absolute;
+    left: 5%;
+}
+

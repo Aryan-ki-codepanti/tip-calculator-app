@@ -1,0 +1,19 @@
+.calculator-input h1{
+    color: var(--Dark-grayish-cyan-1);
+    font-size: 0.97em;
+}
+
+.calculator-input input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: var(--Light-grayish-cyan-2);
+    text-align: right;
+
+    font-weight: var(--fw-700);
+    color: var(--Very-dark-cyan);
+    font-size: var(--Font-size-form-inputs);
+    border-radius: 0.35em;
+    padding: 0.25em 0.5em;
+    
+}
