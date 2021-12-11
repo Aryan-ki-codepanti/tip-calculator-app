@@ -1,4 +1,5 @@
 import React from 'react';
+import { ResultDisplay } from '../ResultDisplay/ResultDisplay';
 import "./CalculatorBox.css";
 
 export const CalculatorBox = () => {
@@ -8,7 +9,7 @@ export const CalculatorBox = () => {
                 Left
             </div>
             <div className="app__right">
-                Right
+                <ResultDisplay />
             </div>
         </div>
     )
