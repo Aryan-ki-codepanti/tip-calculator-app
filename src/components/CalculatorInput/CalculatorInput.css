@@ -14,6 +14,9 @@
     color: var(--Very-dark-cyan);
     font-size: var(--Font-size-form-inputs);
     border-radius: 0.35em;
-    padding: 0.25em 0.5em;
-    
+    padding: 0.25em 0.5em;   
+}
+
+.select-tip-box{
+    margin-block: 2em;
 }

@@ -12,6 +12,7 @@ export const SelectTip = () => {
                 <TipButton percent={15}/>
                 <TipButton percent={25}/>
                 <TipButton percent={50}/>
+                <input type="text" placeholder='Custom' />
             </div>
         </div>
     )

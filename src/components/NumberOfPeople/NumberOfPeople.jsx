@@ -8,7 +8,7 @@ export const NumberOfPeople = () => {
             <h1>Number Of People</h1>
             <div>
                 <img src={person} alt="" />
-                <input type="text" />
+                <input type="text" placeholder='0'/>
             </div>
         </div>
     )

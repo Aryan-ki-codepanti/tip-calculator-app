@@ -8,7 +8,7 @@ export const Bill = () => {
             <h1> Bill </h1>
             <div>
                 <img src={dollar} alt="dollar-sign" />
-                <input type="text" />
+                <input type="text" placeholder='0'/>
             </div>
         </div>
     )
