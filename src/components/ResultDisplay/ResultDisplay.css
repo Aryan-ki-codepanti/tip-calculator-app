@@ -1,0 +1,22 @@
+.result-wrapper{
+    background-color: var(--Very-dark-cyan);
+    padding: 2em;
+    border-radius: 0.9em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reset-button{
+    width: 100%;
+    border: none;
+    border-radius: 0.25em;
+    font-size: calc(0.7 * var(--Font-size-form-inputs));
+    text-transform: uppercase;
+    padding: 0.5em;
+
+    background-color: var(--Button-Reset-Disabled-bg);
+    color: var(--Button-Reset-Disabled-color);
+    font-weight: var(--fw-700);
+}

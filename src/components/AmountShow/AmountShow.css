@@ -1,0 +1,29 @@
+.amount-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amount-title{
+    color: var(--Light-grayish-cyan-2);
+    text-transform: capitalize;
+    font-weight: var(--fw-700);
+    font-size: 0.96em;
+}
+
+.amount-person{
+    color: var(--Dark-grayish-cyan-1);
+    font-weight: var(--fw-700);
+    font-size: 0.8em;
+}
+
+.amount{
+    color: var(--Strong-cyan);
+    display: flex;
+    align-items: center;
+    font-size: 2.4em;
+    gap: 0.05em;
+}
+.amount img{
+    width: 20px;
+}
