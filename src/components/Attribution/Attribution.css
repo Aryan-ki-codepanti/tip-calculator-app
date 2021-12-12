@@ -1,0 +1,30 @@
+.attribution-wrapper{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-block: 0.5em;
+}
+
+.attribution {
+    font-size: 13px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    margin-inline: 0.7em;
+}
+
+
+@media screen and (max-width: 468px) {
+    .attribution-wrapper{
+        position: static;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .attribution-wrapper{
+        position: static;
+    }
+}
+
