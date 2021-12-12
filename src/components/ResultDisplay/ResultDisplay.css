@@ -34,3 +34,9 @@
     background-color: var(--Button-active-bg);
     color: var(--Very-dark-cyan);
 }
+
+@media screen and (max-width: 468px) {
+    .result-wrapper{
+        gap: 3em;
+    }
+}

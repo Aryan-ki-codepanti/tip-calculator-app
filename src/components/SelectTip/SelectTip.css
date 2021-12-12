@@ -12,3 +12,9 @@
 .tip-grid input{
     min-height: 52.23px;
 }
+
+@media screen and (max-width: 468px) {
+    .tip-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
