@@ -34,15 +34,17 @@ export const BillWrapper = ({ children }) => {
 
     const data = {
         billAmount,
-        setBillAmount,
         customTipPercent,
-        setCustomTipPercent,
         currentTipButton,
-        setCurrentTipButton,
         numberOfPeople,
-        setNumberOfPeople,
         total,
-        tipAmount
+        tipAmount,
+        setBillAmount,
+        setCustomTipPercent,
+        setCurrentTipButton,
+        setNumberOfPeople,
+        setTotal,
+        setTipAmount
     } 
 
     return(
