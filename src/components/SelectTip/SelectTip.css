@@ -8,3 +8,7 @@
     margin-bottom: 0.7em;
 }
 
+.tip-grid button ,
+.tip-grid input{
+    min-height: 52.23px;
+}

@@ -17,7 +17,20 @@
     text-transform: uppercase;
     padding: 0.5em;
 
+    background-color: var(--Strong-cyan);
+    color: var(--Very-dark-cyan);
+    
+    font-weight: var(--fw-700);
+    cursor: pointer;
+}
+
+.reset-button:disabled{
+    cursor: default;
     background-color: var(--Button-Reset-Disabled-bg);
     color: var(--Button-Reset-Disabled-color);
-    font-weight: var(--fw-700);
+}
+
+.reset-button:hover:enabled{
+    background-color: var(--Button-active-bg);
+    color: var(--Very-dark-cyan);
 }

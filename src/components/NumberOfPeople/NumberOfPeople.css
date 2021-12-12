@@ -9,3 +9,12 @@
     position: absolute;
     left: 5%;
 }
+
+.number-of-people-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.number-of-people-zero-error{
+    color: var(--Error-state-color) ;
+}

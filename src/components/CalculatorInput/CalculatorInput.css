@@ -15,6 +15,15 @@
     font-size: var(--Font-size-form-inputs);
     border-radius: 0.35em;
     padding: 0.25em 0.5em;   
+    border: 3px solid var(--Light-grayish-cyan-2);
+}
+.number-of-people-box input , .bill-box input{
+    margin-block: 0.5em;
+}
+
+.calculator-input input:hover,
+.calculator-input input:focus{
+    border: 3px solid var(--Strong-cyan);
 }
 
 .select-tip-box{

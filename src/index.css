@@ -23,7 +23,8 @@
     --White: hsl(0, 0%, 100%);
     --Button-Reset-Disabled-bg: hsl(183, 79%, 24%);
     --Button-Reset-Disabled-color: hsl(183, 94%, 20%);
-
+    --Button-active-bg: hsl(173, 61%, 77%);
+    --Error-state-color: #f16e3a;
     /* ## Typography */
 
     /* ### Body Copy */

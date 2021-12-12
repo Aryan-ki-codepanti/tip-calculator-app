@@ -1,12 +1,17 @@
 .tip-button{
     color: var(--Light-grayish-cyan-1);
     background: var(--Very-dark-cyan);
-    border: none;
     outline: none;
     border-radius: 0.3em;
-    padding: 0.4em;
-    font-size: 1.2rem;
+    padding: 0.3em;
+    font-size: 1.5rem;
     font-weight: var(--fw-700);
     cursor: pointer;
     letter-spacing: 0.05em;
+    border: 2px solid var(--Light-grayish-cyan-2);
+}
+
+.tip-button:hover{
+    background-color: var(--Button-active-bg);
+    color: var(--Very-dark-cyan)
 }
